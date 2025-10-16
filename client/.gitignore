@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+server/node_modules/
+client/node_modules/
+
+# Python / Flask
+venv/
+flask-api/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env files
+.env
+server/.env
+client/.env
+flask-api/.env
+
+# Build / dist
+client/build/
+client/dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
